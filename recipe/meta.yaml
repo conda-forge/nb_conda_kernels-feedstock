@@ -20,7 +20,6 @@ requirements:
   build:
     - python
     - setuptools
-
   run:
     - notebook >=4.2.0
     - python
