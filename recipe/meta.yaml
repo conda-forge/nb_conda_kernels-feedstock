@@ -35,6 +35,8 @@ test:
     - python
     - requests
     - mock  # [py2k]
+  imports:
+    - nb_conda_kernels
 
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
