@@ -61,8 +61,6 @@ install:
     - cmd: set PATH=%CONDA_INSTALL_LOCN%;%CONDA_INSTALL_LOCN%\scripts;%PATH%
     - cmd: set PYTHONUNBUFFERED=1
 
-    # (Temporary) hack for working with conda 4.1
-    - cmd: conda config --add channels defaults
     - cmd: conda config --set show_channel_urls true
     - cmd: conda install -c pelson/channel/development --yes --quiet obvious-ci
     - cmd: conda config --add channels conda-forge
