@@ -77,7 +77,7 @@ install:
 build: off
 
 test_script:
-    - "%CMD_IN_ENV% conda build recipe --quiet"
+    - "%CMD_IN_ENV% conda build -c defaults -d conda-forge recipe --quiet"
 deploy_script:
 
     - 'python ci_support\upload_or_check_non_existence.py .\recipe conda-forge --channel=main'
