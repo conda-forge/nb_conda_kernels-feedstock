@@ -2,6 +2,7 @@
 {% set gh_org = "Anaconda-Platform" %}
 {% set gh_repo = "nb_conda_kernels" %}
 
+
 package:
   name: {{ gh_repo }}
   version: {{ version }}
