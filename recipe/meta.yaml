@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ gh_repo }}-{{ version }}.tar.gz
   url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/{{ version }}.tar.gz
-  sha256: 6cdc08c3337c06e5cffacce150dbd10f87334489768e4c8804e045d28f65532a
+  sha256: 738dab837fbc2ba515c91d64bf84486361913caae9fd9479933919973c215405
 
 build:
   number: 0
