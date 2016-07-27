@@ -1,6 +1,3 @@
-REM tests currently flaky in appveyor
-exit 0
-
 cd /D "%SRC_DIR%"
 
 conda clean --lock
