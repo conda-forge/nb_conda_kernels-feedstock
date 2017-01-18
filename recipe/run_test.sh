@@ -3,7 +3,7 @@ if [[ $(uname) == Linux ]]; then
   exit 0
 fi
 
-cd "${SRC_DIR}"
+cd nb_conda_kernels
 
 conda clean --lock
 conda install -y --quiet -n root -c conda-forge notebook

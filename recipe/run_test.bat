@@ -1,4 +1,4 @@
-cd /D "%SRC_DIR%"
+cd /D nb_conda_kernels
 
 conda clean --lock
 conda install -y --quiet -n root -c conda-forge notebook
