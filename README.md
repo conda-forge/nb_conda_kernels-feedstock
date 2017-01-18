@@ -11,6 +11,18 @@ Summary: Launch Jupyter kernels for any installed conda environment
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nb_conda_kernels-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nb-conda-kernels-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_conda_kernels/badges/version.svg)](https://anaconda.org/conda-forge/nb_conda_kernels)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_conda_kernels/badges/downloads.svg)](https://anaconda.org/conda-forge/nb_conda_kernels)
+
 Installing nb_conda_kernels
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `nb_conda_kernels` available on yo
 ```
 conda search nb_conda_kernels --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nb_conda_kernels-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nb-conda-kernels-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_conda_kernels/badges/version.svg)](https://anaconda.org/conda-forge/nb_conda_kernels)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_conda_kernels/badges/downloads.svg)](https://anaconda.org/conda-forge/nb_conda_kernels)
 
 
 Updating nb_conda_kernels-feedstock
