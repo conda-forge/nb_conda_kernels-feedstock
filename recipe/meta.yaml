@@ -42,8 +42,9 @@ test:
 
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
-  license: BSD-3-Clause
-  summary: Launch Jupyter kernels for any installed conda environment
+  license: BSD 3-Clause
+  license_file: LICENSE
+  summary: 'Launch Jupyter kernels for any installed conda environment.'
 
 extra:
   recipe-maintainers:
