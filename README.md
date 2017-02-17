@@ -3,11 +3,11 @@ About nb_conda_kernels
 
 Home: https://github.com/Anaconda-Platform/nb_conda_kernels
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Launch Jupyter kernels for any installed conda environment
+Summary: Launch Jupyter kernels for any installed conda environment.
 
 
 
