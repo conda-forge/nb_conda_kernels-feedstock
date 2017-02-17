@@ -25,7 +25,6 @@ requirements:
     - python
 
 test:
-test:
   source_files:
     - nb_conda_kernels
   requires:
