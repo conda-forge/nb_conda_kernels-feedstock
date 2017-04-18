@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 {% set gh_org = "Anaconda-Platform" %}
 {% set gh_repo = "nb_conda_kernels" %}
 
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ gh_repo }}-{{ version }}.tar.gz
   url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/{{ version }}.tar.gz
-  sha256: 738dab837fbc2ba515c91d64bf84486361913caae9fd9479933919973c215405
+  sha256: 4e333eadeb42b00ae7c50564cb619ce03cbf11cc0ed3747154d32aa1f0c279ed
 
 build:
   number: 0
@@ -21,21 +21,10 @@ requirements:
     - python
     - setuptools
   run:
-    - notebook >=4.2.0
     - python
+    - notebook >=4.2.0
 
 test:
-  source_files:
-    - nb_conda_kernels
-  requires:
-    - coverage
-    - flake8
-    - nodejs
-    - nose
-    - notebook >=4.2.0
-    - python
-    - requests
-    - mock  # [py2k]
   imports:
     - nb_conda_kernels
 
