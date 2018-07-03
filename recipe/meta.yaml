@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 {% set gh_org = "Anaconda-Platform" %}
 {% set gh_repo = "nb_conda_kernels" %}
 
@@ -9,12 +9,10 @@ package:
 source:
   fn: {{ gh_repo }}-{{ version }}.tar.gz
   url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/{{ version }}.tar.gz
-  sha256: 4e333eadeb42b00ae7c50564cb619ce03cbf11cc0ed3747154d32aa1f0c279ed
+  sha256: 71a3cf565eb1183ab0992d6364907c9bf063cdd3d7b4c287b3c44fa6dce9c69f
 
 build:
   number: 0
-  script:
-    - python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
@@ -36,6 +34,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - bollwyvl
     - ocefpaf
     - damianavila
+    - mcg1969
