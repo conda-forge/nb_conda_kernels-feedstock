@@ -1,23 +1,20 @@
 {% set version = "2.1.1" %}
-{% set gh_org = "Anaconda-Platform" %}
-{% set gh_repo = "nb_conda_kernels" %}
 
 package:
-  name: {{ gh_repo }}
+  name: nb_conda_kernels
   version: {{ version }}
 
 source:
-  fn: {{ gh_repo }}-{{ version }}.tar.gz
-  url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/{{ version }}.tar.gz
+  url: https://github.com/Anaconda-Platform/nb_conda_kernels/archive/{{ version }}.tar.gz
   sha256: 71a3cf565eb1183ab0992d6364907c9bf063cdd3d7b4c287b3c44fa6dce9c69f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - notebook >=4.2.0
@@ -27,10 +24,10 @@ test:
     - nb_conda_kernels
 
 about:
-  home: https://github.com/{{ gh_org }}/{{ gh_repo }}
+  home: https://github.com/Anaconda-Platform/nb_conda_kernels
   license: BSD 3-Clause
   license_file: LICENSE
-  summary: 'Launch Jupyter kernels for any installed conda environment.'
+  summary: 'Launch Jupyter kernels for any installed conda environment'
 
 extra:
   recipe-maintainers:
