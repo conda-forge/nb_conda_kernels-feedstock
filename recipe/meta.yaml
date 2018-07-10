@@ -10,7 +10,8 @@ source:
 
 build:
   noarch: python
-  number: 2
+  noarch: python
+  number: 3
 
 requirements:
   host:
