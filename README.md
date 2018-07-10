@@ -7,21 +7,22 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Launch Jupyter kernels for any installed conda environment.
+Summary: Launch Jupyter kernels for any installed conda environment
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nb_conda_kernels-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nb-conda-kernels-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/nb_conda_kernels-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_conda_kernels/badges/version.svg)](https://anaconda.org/conda-forge/nb_conda_kernels)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_conda_kernels/badges/downloads.svg)](https://anaconda.org/conda-forge/nb_conda_kernels)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nb_conda_kernels-green.svg)](https://anaconda.org/conda-forge/nb_conda_kernels) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nb_conda_kernels.svg)](https://anaconda.org/conda-forge/nb_conda_kernels) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nb_conda_kernels.svg)](https://anaconda.org/conda-forge/nb_conda_kernels) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nb_conda_kernels.svg)](https://anaconda.org/conda-forge/nb_conda_kernels) |
 
 Installing nb_conda_kernels
 ===========================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
