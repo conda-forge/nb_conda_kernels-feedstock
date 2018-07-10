@@ -9,10 +9,11 @@ source:
   sha256: 71a3cf565eb1183ab0992d6364907c9bf063cdd3d7b4c287b3c44fa6dce9c69f
 
 build:
-  number: 1
+  noarch: python
+  number: 2
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
