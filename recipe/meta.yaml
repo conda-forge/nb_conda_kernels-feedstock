@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: nb_conda_kernels
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/Anaconda-Platform/nb_conda_kernels/archive/{{ version }}.tar.gz
-  sha256: ee7b923ac30f40d407fb15b17dd2698843acadd2d48a801fadf02db9bc3b63e5
+  sha256: caafbf4ac1d2e92a4066e68a4c9b4edf9ddf4358bd01a85a0bb0c9511f546483
 
 build:
-  number: 1000
+  number: 0
 
 requirements:
   host:
