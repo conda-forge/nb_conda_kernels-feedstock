@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About nb_conda_kernels
 ======================
 
@@ -16,7 +20,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/nb_conda_kernels-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/nb_conda_kernels-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/nb_conda_kernels-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/nb_conda_kernels-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nb_conda_kernels-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nb-conda-kernels-feedstock/branch/master)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nb-conda-kernels-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nb-conda-kernels-feedstock/branch/master)
 
 Current release info
 ====================
@@ -49,6 +53,8 @@ conda search nb_conda_kernels --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -104,3 +110,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@damianavila](https://github.com/damianavila/)
+* [@mcg1969](https://github.com/mcg1969/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+
