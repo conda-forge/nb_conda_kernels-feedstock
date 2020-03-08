@@ -20,6 +20,10 @@ requirements:
     - notebook >=4.2.0
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - nb_conda_kernels
 
