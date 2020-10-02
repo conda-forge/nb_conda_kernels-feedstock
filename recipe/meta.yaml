@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/Anaconda-Platform/nb_conda_kernels/archive/{{ version }}.tar.gz
-  sha256: da0a97c1caf3acd57616e15104dba4bdf7618fd518fb4f70bd6c336ac6a69ac6
+  sha256: f6be5055947a9e0a588ad34541de81b494f1b820f2f6613bc8cf586c7c3289a9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -17,7 +17,8 @@ requirements:
     - pip
   run:
     - python
-    - notebook >=4.2.0
+    - pywin32 # [win]
+    - jupyter_client >=4.2
 
 test:
   requires:
