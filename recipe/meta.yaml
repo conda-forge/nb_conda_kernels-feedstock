@@ -17,7 +17,7 @@ requirements:
     - pip
   run:
     - python
-    - pywin32 # [win]
+    - pywin32  # [win]
     - jupyter_client >=4.2
 
 test:
@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/Anaconda-Platform/nb_conda_kernels
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: Launch Jupyter kernels for any installed conda environment
 
