@@ -32,5 +32,5 @@ script:
   - export GIT_BRANCH="$TRAVIS_BRANCH"
   - export FEEDSTOCK_NAME=$(basename ${TRAVIS_REPO_SLUG})
 
-
+  - export CONDA_FORGE_DOCKER_RUN_ARGS="--network=host"
   - if [[ ${PLATFORM} =~ .*linux.* ]]; then ./.scripts/run_docker_build.sh; fi
