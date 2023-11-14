@@ -9,17 +9,15 @@ source:
   sha256: 47dddde4f05376d4b457309bfcf0d5b1099fa86eed95df4681bbde95932d7a18
 
 build:
-  number: 2
+  noarch: python
+  number: 3
 
 requirements:
-  build:
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
-    - python
+    - python >=3.8,<3.11
     - pip
   run:
-    - python
+    - python >=3.8,<3.11
     - pywin32  # [win]
     - jupyter_client >=4.2
 
