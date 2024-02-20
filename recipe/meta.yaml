@@ -30,8 +30,8 @@ test:
     - pip check
     - test -f ${PREFIX}/bin/.nb_conda_kernels-post-link.sh  # [unix]
     - test -f ${PREFIX}/bin/.nb_conda_kernels-pre-unlink.sh  # [unix]
-    - if not exist %LIBRARY_PREFIX%\Scripts\.nb_conda_kernels-post-link.bat (exit 1)  # [win]
-    - if not exist %LIBRARY_PREFIX%\Scripts\.nb_conda_kernels-pre-unlink.bat (exit 1)  # [win]
+    - if not exist %PREFIX%\Scripts\.nb_conda_kernels-post-link.bat (exit 1)  # [win]
+    - if not exist %PREFIX%\Scripts\.nb_conda_kernels-pre-unlink.bat (exit 1)  # [win]
   imports:
     - nb_conda_kernels
 
