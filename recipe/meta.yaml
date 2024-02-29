@@ -14,10 +14,10 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<3.12
+    - python >=3.8
     - pip
   run:
-    - python >=3.8,<3.12
+    - python >=3.8
     - pywin32  # [win]
     - jupyter_client >=4.2
     - __unix  # [unix]
