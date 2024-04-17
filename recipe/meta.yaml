@@ -18,6 +18,10 @@ requirements:
     - pip
   run:
     - python >=3.8,<3.12
+    - notebook
+    - r-irkernel
+    - requests
+    - psutil
     - pywin32  # [win]
     - jupyter_client >=4.2
     - __unix  # [unix]
