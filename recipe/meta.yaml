@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -19,7 +19,6 @@ requirements:
   run:
     - python >=3.8,<3.12
     - notebook
-    - r-irkernel
     - requests
     - psutil
     - pywin32  # [win]
