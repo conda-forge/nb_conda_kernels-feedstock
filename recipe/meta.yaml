@@ -14,10 +14,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - pip
   run:
-    - python
+    - python >=3.8
     - notebook
     - requests
     - psutil
