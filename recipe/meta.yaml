@@ -10,14 +10,14 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 3
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - notebook
     - requests
     - psutil
@@ -29,6 +29,7 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
     - test -f ${PREFIX}/bin/.nb_conda_kernels-post-link.sh  # [unix]
